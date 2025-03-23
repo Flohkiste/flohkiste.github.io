@@ -30,8 +30,8 @@ function clickField(element) {
   }
 
   if (
-    !element.style.backgroundColor === "white" ||
-    !element.style.backgroundColor === ""
+    element.getElementsByClassName("fa-xmark")[0].style.display == "block" ||
+    element.getElementsByClassName("fa-circle")[0].style.display == "block"
   ) {
     return;
   }
