@@ -1,16 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="popup.css" />
+    <script src="logic.js"></script>
+    <script
+      src="https://kit.fontawesome.com/ed5c5bcf2c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <h1>Tic Tac Toe</h1>
+    <div id="playfield" class="playfield">
+      <div id="0" class="field">
+        <i class="fa-solid fa-xmark fa-10x"></i
+        ><i class="fa-regular fa-circle fa-10x"></i>
+      </div>
+      <div id="1" class="field">
+        <i class="fa-solid fa-xmark fa-10x"></i
+        ><i class="fa-regular fa-circle fa-10x"></i>
+      </div>
+      <div id="2" class="field">
+        <i class="fa-solid fa-xmark fa-10x"></i
+        ><i class="fa-regular fa-circle fa-10x"></i>
+      </div>
+      <div id="3" class="field">
+        <i class="fa-solid fa-xmark fa-10x"></i
+        ><i class="fa-regular fa-circle fa-10x"></i>
+      </div>
+      <div id="4" class="field">
+        <i class="fa-solid fa-xmark fa-10x"></i
+        ><i class="fa-regular fa-circle fa-10x"></i>
+      </div>
+      <div id="5" class="field">
+        <i class="fa-solid fa-xmark fa-10x"></i
+        ><i class="fa-regular fa-circle fa-10x"></i>
+      </div>
+      <div id="6" class="field">
+        <i class="fa-solid fa-xmark fa-10x"></i
+        ><i class="fa-regular fa-circle fa-10x"></i>
+      </div>
+      <div id="7" class="field">
+        <i class="fa-solid fa-xmark fa-10x"></i
+        ><i class="fa-regular fa-circle fa-10x"></i>
+      </div>
+      <div id="8" class="field">
+        <i class="fa-solid fa-xmark fa-10x"></i
+        ><i class="fa-regular fa-circle fa-10x"></i>
+      </div>
+    </div>
+    <h1 id="curPlayerDisplay">Player 1 to Move</h1>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-</head>
-
-<body>
-    <center>
-        <h1>Portfolio von Florian Kreher</h1>
-    </center>
-</body>
-
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <h1 id="popupText">Some text in the Modal..</h1>
+        <button id="rematchBtn">Rematch</button>
+      </div>
+    </div>
+  </body>
 </html>
